@@ -2,12 +2,16 @@
 ### Track 2: Best Open-Source AI Project — **PS 03: Open-Source AI Agent for Real-World Operations**
 #### Powered by **Google Gemma 4 (Open-Weight)** via Ollama • Local MCP Tools • Human-in-the-Loop Safe Execution
 
-[![Track](https://img.shields.io/badge/Track_2-Best_Open--Source_AI_Project-4285F4.svg)](https://github.com/sufiyan-cyber/emberground_hackathon)
-[![Problem Statement](https://img.shields.io/badge/PS_03-AI_Agent_for_Real--World_Operations-green.svg)](https://github.com/sufiyan-cyber/emberground_hackathon)
+[![Track](https://img.shields.io/badge/Track_2-Best_Open--Source_AI_Project-4285F4.svg)](https://github.com/sufiyan-cyber/peter_parker_hacktoberfest)
+[![Problem Statement](https://img.shields.io/badge/PS_03-AI_Agent_for_Real--World_Operations-green.svg)](https://github.com/sufiyan-cyber/peter_parker_hacktoberfest)
 [![Model: Gemma 4](https://img.shields.io/badge/Model-Google_Gemma_4_(E4B_|_Ollama)-EA4335.svg)](https://ollama.com/library/gemma4)
 [![MCP](https://img.shields.io/badge/MCP-14_Live_Business_Tools-emerald.svg)](http://localhost:8000/mcp)
 [![Voice](https://img.shields.io/badge/Voice-Open--Source_Voice_Pipeline-orange.svg)](apps/api/main.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+<p align="center">
+  <img src="assets/operator_os_hardware.jpg" alt="OperatorOS Hardware Dashboard & Voice Speaker" width="600" />
+</p>
 
 ---
 
@@ -120,8 +124,8 @@ Our FastAPI server exposes a standards-compliant **Streamable-HTTP MCP Server** 
 
 ### Step 1: Clone the Repository & Install Python Dependencies
 ```bash
-git clone https://github.com/sufiyan-cyber/emberground_hackathon.git
-cd emberground_hackathon
+git clone https://github.com/sufiyan-cyber/peter_parker_hacktoberfest.git
+cd peter_parker_hacktoberfest
 pip install -r requirements.txt
 ```
 
@@ -163,7 +167,7 @@ python -m tests.test_flow
 ## 📁 6. Repository Structure
 
 ```text
-emberground_hackathon/
+peter_parker_hacktoberfest/
 ├── apps/
 │   ├── api/
 │   │   └── main.py          # FastAPI server, /mcp Streamable-HTTP server, Sarvam v3 voice & TTS failover
