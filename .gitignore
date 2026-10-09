@@ -1,0 +1,45 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+
+# Secrets & Environment (CRITICAL: Zero credentials committed)
+.env
+.env.*
+!.env.example
+*.env.local
+
+# Databases, Storage & Runtime State
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.log
+
+# Audio & Temporary Media Cache
+*.wav
+*.mp3
+*.webm
+*.ogg
+
+# Node & TrueForge Frontend
+node_modules/
+dist/
+build/
+.npm
+.turbo
+
+# IDE, OS & System Files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
